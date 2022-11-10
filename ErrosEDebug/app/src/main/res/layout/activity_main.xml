@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a senha" />
+
+    <EditText
+        android:id="@+id/editTextSenha2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirme a senha" />
+
+    <Button
+        android:id="@+id/buttonIncluirSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incluir senha"
+        android:layout_marginBottom="50dp" />
+
+    <EditText
+        android:id="@+id/editTextContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contador" />
+
+    <Button
+        android:id="@+id/buttonAdd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar 1"/>
+</LinearLayout>

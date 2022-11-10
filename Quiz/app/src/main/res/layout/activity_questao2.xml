@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Questao2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jogador: "/>
+
+        <TextView
+            android:id="@+id/textViewNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anônimo"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quais desses atores já ganhou um oscar?"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxLeonardoDeCaprio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leonardo de Cáprio" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTomHanks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tom Hanks" />
+
+    <CheckBox
+        android:id="@+id/checkBoxJimCarrey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jin Carrey" />
+
+    <CheckBox
+        android:id="@+id/checkBoxWillSmith"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Will Smith" />
+
+    <Button
+        android:id="@+id/buttonResponderQ2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Responder" />
+
+</LinearLayout>
